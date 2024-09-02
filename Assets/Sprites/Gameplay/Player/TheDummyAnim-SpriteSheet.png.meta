@@ -1,0 +1,1987 @@
+fileFormatVersion: 2
+guid: b8d7a3bb8ba557641bdc2f0dc34c30df
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 640
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb9876cdbd5485478b388bda4bf4bcd
+      internalID: 80844635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 640
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fd0d3c47f3e8441933d9651470aa3b
+      internalID: -244964472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 640
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ecfb3cfcbde2b34aa9196b9ac6450ad
+      internalID: -1378334693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 640
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da071f39c7cbf64282b1519858a092c
+      internalID: 459231235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 576
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f7c23fda1915e46a0d1becb7f5fbdf
+      internalID: 569500011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 576
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4657811e422659b45bf33752fcf63002
+      internalID: 917400398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 576
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee60b9063b0b8841a9dde377e74bbca
+      internalID: 200074900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 576
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829a10fb18651c1459982252d3a52d41
+      internalID: -1305567907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 512
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2dd212df8bc1e42a3f59426c007c93
+      internalID: 963550412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 512
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4b46599150509478b40e0e6d21279e
+      internalID: 1338378723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 512
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69664136d06dcff469be326aacb3bfe6
+      internalID: 2077033895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 512
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab30b62039340841ad3e490e1d8e216
+      internalID: 955010270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 512
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257d7a309919bab49a261079dd75e4c0
+      internalID: 754698747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 512
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e3eb2791556b542b89389771103790
+      internalID: 1534603920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 512
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e0a4fab622f684ba16152c9488a1c2
+      internalID: 362895312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 448
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20040a3fa7d4deb45ba34700912e65c8
+      internalID: -1712270904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 448
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6011a08d833c1a0459e2f198a9c888b4
+      internalID: -328923531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 448
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2d2a6ba99518240b25aefb37a57884
+      internalID: -1371566750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 448
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69689cf078860134bb0404e1d6f62f13
+      internalID: -1272213493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 448
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7080a9bac57b9af48868400d9b1a0693
+      internalID: 240102030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 448
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b692fbc6f4ea6347ae8adf68b67de67
+      internalID: -728036614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 448
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09ff2c93c8ae0c46b0d7c9d41b9a870
+      internalID: -1216203184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 448
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e480fa668c179074faabbe66b0d3e5a7
+      internalID: 1463292542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 384
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8a60deac609c04796a50c9fb493bca
+      internalID: -1117828069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 384
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e79e1cc7b8d1ad49914af3c0d04e913
+      internalID: -724874144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 384
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adc29255427de04ca6a3757df46b413
+      internalID: -1468262077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 384
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4112527d52c0c41b1730ee69f3f9a2
+      internalID: 1765259002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 384
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24273419b77491459744428257da4c2
+      internalID: 1190903788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 388
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d93b2c6acf664eb7b332234b88ab5
+      internalID: -633375592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 384
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b711250caf8868d44957adced4e0e819
+      internalID: -477127588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 384
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e400d08ec8bfa0844b4d48d641b4026b
+      internalID: 1892250842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 384
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307ca744f6145d841a4e2455d12c930a
+      internalID: -1378922904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 384
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb952680e1467346a4d97ec45e4dc43
+      internalID: 1681730652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 388
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b69a5b9ad7300438aa6953dc0a0c92
+      internalID: -1103017527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 320
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d22607850efc148a3cc994e845f954
+      internalID: -949901304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 320
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6deaaf4936fe843923414803fc9fc1
+      internalID: 316571055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 321
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb853f014e1c084aaf8546692b6ae82
+      internalID: -1134256138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 320
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c86428a14883742b5baf359f20fcaf
+      internalID: 539813418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 320
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fedf20dc4cf7b741bb7aba80627de54
+      internalID: -669235596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 320
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4e6eac3cd60e94d98ebd8ea95b7a0b
+      internalID: -2066465969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 321
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69885f8860b2d0b45b6abec6b74d3530
+      internalID: -264575918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 320
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c99551cdd0cb24d9ec86aa6b34d6ca
+      internalID: -1609821690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 256
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767e38cf7b1e6894a8786c33deb38a3f
+      internalID: -260670477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 256
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9382576060a0b4189ed47a2e3042b4
+      internalID: 150305264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 256
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01ce2a7435f4fe4a9b0391a1f82a41b
+      internalID: 408180944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 256
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831473345344aaa429c755744aff43e1
+      internalID: 1892120699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45da8bd2ab4e8084eaa40589dfe2df09
+      internalID: -1037798571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 256
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba70dac51119a7c43960e3306e935dd7
+      internalID: -878003625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 256
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1b6b48391ee7249a2326aa11e7f03a
+      internalID: -1726430138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 256
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155146a34bfd0b045afce67472392870
+      internalID: -405679529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 256
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6501f88b82a44ca4190f3071d2dfbed8
+      internalID: 1688464398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 192
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f523db84e87a7e4b97dff91173632a0
+      internalID: -1112782312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 192
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c820b134b562bc43a37c7f2338a1a4e
+      internalID: -688774797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 192
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9014b7bb22b12984fa19ad2c75e37203
+      internalID: 1498284195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 203
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2fe284f74883241adaec1dabf74410
+      internalID: -224784691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 211
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31fd05a8365d324b9463541618a1b82
+      internalID: -1174448622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 215
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f6b5f933f7d654f91722ad666c9ca6
+      internalID: -2111625769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 202
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f66ff1f73cbc84d9861e21a037eff1
+      internalID: -2080636948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 192
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561d289c13a32834ba6a34ed63e36c92
+      internalID: 1958648585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 128
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cb31f3cb30398449a46e074df8131d
+      internalID: 1462856730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 137
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64996810aab64e842a231dd769a23a29
+      internalID: -1107271832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 156
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2357847a16505a49873961bb5dd4c47
+      internalID: 1241231869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 168
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d7d41b21cd1642939d15a2079a031
+      internalID: -2036071535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 154
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7a07b8f42b883408dc0642d2cc3493
+      internalID: -76933760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 153
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ef7be621f55f49897b975b65a47c8
+      internalID: -2063440938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 136
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa644602a999c94894d5a082e63f485
+      internalID: 2128638185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0e6966f67266745b2df0541202f248
+      internalID: -464668065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 128
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cdb0ff43e3a494183ccbf4380d765e
+      internalID: 1971428201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 64
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f1b06cfa4760e438f3bb92e6d08da2
+      internalID: -412451185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 64
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354f314dd4d9d7740bbffee6f68ddefa
+      internalID: -1226251659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 64
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6247ea94496f95542b4a8e1859a8fee9
+      internalID: -44992235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 64
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9023cccb2c3254593a2a4b17d48959
+      internalID: 1577077224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 64
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1c16ac4e76bca4ba521a9d0523edaf
+      internalID: -1459099807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 64
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd77e694a8ca6843a37a5792f716ab0
+      internalID: -1281699972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 64
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafbf71f94bf591469a0b5097b38c05a
+      internalID: -1695462103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 64
+        width: 17
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a15b23f2adf11f4cb347183036383b3
+      internalID: 2043462378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4ffb3453d445643834a8dc7ed127bb
+      internalID: 1349860092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be78a62427ccb67429a2841394d174cf
+      internalID: -1441783898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8473dd49ad47944bc7524306c3ee8c
+      internalID: -952562114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dbd7ea0aba374499ba501776500def
+      internalID: 1139229604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 0
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d82803e936bd2458e9867b326e884e
+      internalID: -1535341070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50cd0879c2751b4eb1ae8b7540b3582
+      internalID: 1269737785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TheDummyAnim-SpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef35134a155aca4aa7ddb126300c35b
+      internalID: -1172355596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TheDummyAnim-SpriteSheet_0: 80844635
+      TheDummyAnim-SpriteSheet_1: -244964472
+      TheDummyAnim-SpriteSheet_10: 2077033895
+      TheDummyAnim-SpriteSheet_11: 955010270
+      TheDummyAnim-SpriteSheet_12: 754698747
+      TheDummyAnim-SpriteSheet_13: 1534603920
+      TheDummyAnim-SpriteSheet_14: 362895312
+      TheDummyAnim-SpriteSheet_15: -2005090677
+      TheDummyAnim-SpriteSheet_16: 1358150286
+      TheDummyAnim-SpriteSheet_17: 2011244219
+      TheDummyAnim-SpriteSheet_18: -1762297152
+      TheDummyAnim-SpriteSheet_19: 1888922395
+      TheDummyAnim-SpriteSheet_2: -1378334693
+      TheDummyAnim-SpriteSheet_20: -1625968378
+      TheDummyAnim-SpriteSheet_21: -1794205805
+      TheDummyAnim-SpriteSheet_22: 1697992483
+      TheDummyAnim-SpriteSheet_23: -1712270904
+      TheDummyAnim-SpriteSheet_24: -328923531
+      TheDummyAnim-SpriteSheet_25: -1371566750
+      TheDummyAnim-SpriteSheet_26: -1272213493
+      TheDummyAnim-SpriteSheet_27: 240102030
+      TheDummyAnim-SpriteSheet_28: -728036614
+      TheDummyAnim-SpriteSheet_29: -1216203184
+      TheDummyAnim-SpriteSheet_3: 459231235
+      TheDummyAnim-SpriteSheet_30: 1463292542
+      TheDummyAnim-SpriteSheet_31: -1117828069
+      TheDummyAnim-SpriteSheet_32: -724874144
+      TheDummyAnim-SpriteSheet_33: -1468262077
+      TheDummyAnim-SpriteSheet_34: 1765259002
+      TheDummyAnim-SpriteSheet_35: 1190903788
+      TheDummyAnim-SpriteSheet_36: -633375592
+      TheDummyAnim-SpriteSheet_37: -477127588
+      TheDummyAnim-SpriteSheet_38: 1892250842
+      TheDummyAnim-SpriteSheet_39: -1378922904
+      TheDummyAnim-SpriteSheet_4: 569500011
+      TheDummyAnim-SpriteSheet_40: 1681730652
+      TheDummyAnim-SpriteSheet_41: -1103017527
+      TheDummyAnim-SpriteSheet_42: -949901304
+      TheDummyAnim-SpriteSheet_43: 316571055
+      TheDummyAnim-SpriteSheet_44: -1134256138
+      TheDummyAnim-SpriteSheet_45: 539813418
+      TheDummyAnim-SpriteSheet_46: -669235596
+      TheDummyAnim-SpriteSheet_47: -2066465969
+      TheDummyAnim-SpriteSheet_48: -264575918
+      TheDummyAnim-SpriteSheet_49: -1609821690
+      TheDummyAnim-SpriteSheet_5: 917400398
+      TheDummyAnim-SpriteSheet_50: -260670477
+      TheDummyAnim-SpriteSheet_51: 150305264
+      TheDummyAnim-SpriteSheet_52: 408180944
+      TheDummyAnim-SpriteSheet_53: 1892120699
+      TheDummyAnim-SpriteSheet_54: -1037798571
+      TheDummyAnim-SpriteSheet_55: -878003625
+      TheDummyAnim-SpriteSheet_56: -1726430138
+      TheDummyAnim-SpriteSheet_57: -405679529
+      TheDummyAnim-SpriteSheet_58: 1688464398
+      TheDummyAnim-SpriteSheet_59: -1112782312
+      TheDummyAnim-SpriteSheet_6: 200074900
+      TheDummyAnim-SpriteSheet_60: -688774797
+      TheDummyAnim-SpriteSheet_61: 1498284195
+      TheDummyAnim-SpriteSheet_62: -224784691
+      TheDummyAnim-SpriteSheet_63: -1174448622
+      TheDummyAnim-SpriteSheet_64: -2111625769
+      TheDummyAnim-SpriteSheet_65: -2080636948
+      TheDummyAnim-SpriteSheet_66: 1958648585
+      TheDummyAnim-SpriteSheet_67: 1462856730
+      TheDummyAnim-SpriteSheet_68: -1107271832
+      TheDummyAnim-SpriteSheet_69: 1241231869
+      TheDummyAnim-SpriteSheet_7: -1305567907
+      TheDummyAnim-SpriteSheet_70: -2036071535
+      TheDummyAnim-SpriteSheet_71: -76933760
+      TheDummyAnim-SpriteSheet_72: -2063440938
+      TheDummyAnim-SpriteSheet_73: 2128638185
+      TheDummyAnim-SpriteSheet_74: -464668065
+      TheDummyAnim-SpriteSheet_75: 1971428201
+      TheDummyAnim-SpriteSheet_76: -412451185
+      TheDummyAnim-SpriteSheet_77: -1226251659
+      TheDummyAnim-SpriteSheet_78: -44992235
+      TheDummyAnim-SpriteSheet_79: 1577077224
+      TheDummyAnim-SpriteSheet_8: 963550412
+      TheDummyAnim-SpriteSheet_80: -1459099807
+      TheDummyAnim-SpriteSheet_81: -1281699972
+      TheDummyAnim-SpriteSheet_82: -1695462103
+      TheDummyAnim-SpriteSheet_83: 2043462378
+      TheDummyAnim-SpriteSheet_84: 1349860092
+      TheDummyAnim-SpriteSheet_85: -1441783898
+      TheDummyAnim-SpriteSheet_86: -952562114
+      TheDummyAnim-SpriteSheet_87: 1139229604
+      TheDummyAnim-SpriteSheet_88: -1535341070
+      TheDummyAnim-SpriteSheet_89: 1269737785
+      TheDummyAnim-SpriteSheet_9: 1338378723
+      TheDummyAnim-SpriteSheet_90: -1172355596
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
