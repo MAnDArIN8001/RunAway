@@ -28,24 +28,66 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
             ""id"": ""ba7e06f2-34fc-42c5-8048-98156d2247d2"",
             ""actions"": [
                 {
-                    ""name"": ""Jump"",
+                    ""name"": ""SwipeEvent"",
                     ""type"": ""Button"",
-                    ""id"": ""8f30cfeb-2b72-4bc8-b2ea-ddc38785ca9c"",
+                    ""id"": ""1e2b31a6-a541-4d4a-8ca9-ff946132462e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""SwipeData"",
+                    ""type"": ""Value"",
+                    ""id"": ""386744de-c045-47cd-8c90-5f496b5bae68"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""ac223d55-5d0c-43a2-ae7f-bc048bc3e8a9"",
-                    ""path"": ""<Touchscreen>/primaryTouch/indirectTouch"",
+                    ""id"": ""6bb28874-a0b3-4dd6-bd52-8a5173468bcc"",
+                    ""path"": ""<Touchscreen>/Press"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Jump"",
+                    ""action"": ""SwipeEvent"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""aad03bb5-7f27-4ebf-bcf4-41182700de81"",
+                    ""path"": ""<Mouse>/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwipeEvent"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""bf745bac-f6f1-4aa5-bbb3-79ef7ddcf9ff"",
+                    ""path"": ""<Touchscreen>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwipeData"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9b4e40f4-7215-4973-9f52-9b1e4d10bd8d"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwipeData"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -56,7 +98,8 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
 }");
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
-        m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_SwipeEvent = m_Player.FindAction("SwipeEvent", throwIfNotFound: true);
+        m_Player_SwipeData = m_Player.FindAction("SwipeData", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -118,12 +161,14 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     // Player
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
-    private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_SwipeEvent;
+    private readonly InputAction m_Player_SwipeData;
     public struct PlayerActions
     {
         private @MainInput m_Wrapper;
         public PlayerActions(@MainInput wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @SwipeEvent => m_Wrapper.m_Player_SwipeEvent;
+        public InputAction @SwipeData => m_Wrapper.m_Player_SwipeData;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -133,16 +178,22 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
         {
             if (instance == null || m_Wrapper.m_PlayerActionsCallbackInterfaces.Contains(instance)) return;
             m_Wrapper.m_PlayerActionsCallbackInterfaces.Add(instance);
-            @Jump.started += instance.OnJump;
-            @Jump.performed += instance.OnJump;
-            @Jump.canceled += instance.OnJump;
+            @SwipeEvent.started += instance.OnSwipeEvent;
+            @SwipeEvent.performed += instance.OnSwipeEvent;
+            @SwipeEvent.canceled += instance.OnSwipeEvent;
+            @SwipeData.started += instance.OnSwipeData;
+            @SwipeData.performed += instance.OnSwipeData;
+            @SwipeData.canceled += instance.OnSwipeData;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
         {
-            @Jump.started -= instance.OnJump;
-            @Jump.performed -= instance.OnJump;
-            @Jump.canceled -= instance.OnJump;
+            @SwipeEvent.started -= instance.OnSwipeEvent;
+            @SwipeEvent.performed -= instance.OnSwipeEvent;
+            @SwipeEvent.canceled -= instance.OnSwipeEvent;
+            @SwipeData.started -= instance.OnSwipeData;
+            @SwipeData.performed -= instance.OnSwipeData;
+            @SwipeData.canceled -= instance.OnSwipeData;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -162,6 +213,7 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
     public PlayerActions @Player => new PlayerActions(this);
     public interface IPlayerActions
     {
-        void OnJump(InputAction.CallbackContext context);
+        void OnSwipeEvent(InputAction.CallbackContext context);
+        void OnSwipeData(InputAction.CallbackContext context);
     }
 }

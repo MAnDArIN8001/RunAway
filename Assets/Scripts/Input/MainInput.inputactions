@@ -6,24 +6,66 @@
             "id": "ba7e06f2-34fc-42c5-8048-98156d2247d2",
             "actions": [
                 {
-                    "name": "Jump",
+                    "name": "SwipeEvent",
                     "type": "Button",
-                    "id": "8f30cfeb-2b72-4bc8-b2ea-ddc38785ca9c",
+                    "id": "1e2b31a6-a541-4d4a-8ca9-ff946132462e",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SwipeData",
+                    "type": "Value",
+                    "id": "386744de-c045-47cd-8c90-5f496b5bae68",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "ac223d55-5d0c-43a2-ae7f-bc048bc3e8a9",
-                    "path": "<Touchscreen>/primaryTouch/indirectTouch",
+                    "id": "6bb28874-a0b3-4dd6-bd52-8a5173468bcc",
+                    "path": "<Touchscreen>/Press",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "SwipeEvent",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aad03bb5-7f27-4ebf-bcf4-41182700de81",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeEvent",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bf745bac-f6f1-4aa5-bbb3-79ef7ddcf9ff",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeData",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b4e40f4-7215-4973-9f52-9b1e4d10bd8d",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwipeData",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
