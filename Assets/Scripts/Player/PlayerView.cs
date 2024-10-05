@@ -4,6 +4,7 @@ using UnityEngine;
 public class PlayerView : MonoBehaviour
 {
     private PlayerStateController _playerStateController;
+    private PlayerLife _playerLife;
 
     private Animator _animator;
 
@@ -17,6 +18,13 @@ public class PlayerView : MonoBehaviour
         }
 
         _animator = GetComponent<Animator>();
+
+        _playerLife = GetComponent<PlayerLife>();
+
+        if (_playerLife is null)
+        {
+            Debug.LogError($"The gameObject {gameObject} doesnt containse component PlayerLife");
+        }
     }
 
     private void OnEnable()
@@ -25,6 +33,11 @@ public class PlayerView : MonoBehaviour
         {
             _playerStateController.OnJumpStateChanged += HandleJumpStateChangings;
             _playerStateController.OnSlideStateChanged += HandleSlideStateChangings;
+        }
+
+        if (_playerLife is not null)
+        {
+            _playerLife.OnDied += HandleDeath;
         }
     }
 
@@ -35,6 +48,16 @@ public class PlayerView : MonoBehaviour
             _playerStateController.OnJumpStateChanged -= HandleJumpStateChangings;
             _playerStateController.OnSlideStateChanged -= HandleSlideStateChangings;
         }
+
+        if (_playerLife is not null)
+        {
+            _playerLife.OnDied -= HandleDeath;
+        }
+    }
+
+    private void HandleDeath()
+    {
+        _animator.SetBool(PlayerAnimatorConsts.IsAliveKey, false);
     }
 
     private void HandleJumpStateChangings(bool newJumpState)

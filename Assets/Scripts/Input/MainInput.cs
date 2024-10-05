@@ -71,6 +71,17 @@ public partial class @MainInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""20043fd2-4960-4665-869a-4010d1a257c6"",
+                    ""path"": ""<Pointer>/press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""SwipeEvent"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""bf745bac-f6f1-4aa5-bbb3-79ef7ddcf9ff"",
                     ""path"": ""<Touchscreen>/position"",
                     ""interactions"": """",
